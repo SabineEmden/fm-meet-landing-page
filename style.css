@@ -57,3 +57,27 @@ h5,
 h6 {
   text-wrap: balance;
 }
+
+/* COLORS, SPACING, TYPOGRAPHY*/
+:root {
+  --cyan-600: #4d96a9;
+  --cyan-300: #8fe3f9;
+  --purple-600: #855fb1;
+  --purple-300: #d9b8ff;
+  --slate-900: #28283d;
+  --slate-600: #87879d;
+  --slate-300: #d1d1df;
+  --white: #fafafa;
+
+  --spacing-1400: 7rem;
+  --spacing-1000: 5rem;
+  --spacing-900: 4.5rem;
+  --spacing-800: 4rem;
+  --spacing-700: 3.5rem;
+  --spacing-500: 2.5rem;
+  --spacing-400: 2rem;
+  --spacing-300: 1.5rem;
+  --spacing-200: 1rem;
+  --spacing-100: 0.5rem;
+  --spacing-50: 0.25rem;
+}
