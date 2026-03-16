@@ -81,3 +81,17 @@ h6 {
   --spacing-100: 0.5rem;
   --spacing-50: 0.25rem;
 }
+
+@font-face {
+  font-family: "Red Hat Display";
+  font-weight: 500; /* medium */
+  font-display: swap;
+  src: url(./assets/fonts/RedHatDisplay-Medium-subset.woff2) format(woff2);
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  font-weight: 900; /* black */
+  font-display: swap;
+  src: url(./assets/fonts/RedHatDisplay-Black-subset.woff2);
+}
