@@ -98,10 +98,12 @@ h6 {
 body {
   display: flex;
   flex-direction: column;
+  align-items: center;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 500;
   font-size: 1rem; /* changes to 18px for desktop */
   line-height: 1.1;
+  text-align: center;
   -webkit-font-smoothing: antialiased; /* from CSS Reset, here to consolidate duplicate selectors */
   color: var(--slate-600);
   background-color: var(--white);
@@ -157,7 +159,23 @@ main {
 
 /* HEADER */
 .header__logo {
-  margin: var(--spacing-600) auto 0;
+  margin-top: var(--spacing-600);
 }
 
 /* HERO SECTION */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-600);
+  margin-top: var(--spacing-800);
+}
+
+.hero__container-before {
+  height: 40vw;
+  margin: 0 -32px;
+}
+
+.hero__container-after {
+  display: none;
+}
