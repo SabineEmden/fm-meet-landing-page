@@ -14,11 +14,6 @@
   margin: 0;
 }
 
-body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-}
-
 img,
 picture,
 video,
@@ -94,4 +89,22 @@ h6 {
   font-weight: 900; /* black */
   font-display: swap;
   src: url(./assets/fonts/RedHatDisplay-Black-subset.woff2);
+}
+
+/* GENERAl STYLES AND LAYOUT */
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  font-size: 1rem; /* changes to 18px for desktop */
+  line-height: 1.1;
+  -webkit-font-smoothing: antialiased; /* from CSS Reset, here to consolidate duplicate selectors */
+  color: var(--slate-600);
+  background-color: var(--white);
+  min-height: 100dvh;
+}
+
+main {
+  flex-grow: 1;
 }
