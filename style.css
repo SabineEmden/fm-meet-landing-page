@@ -69,6 +69,7 @@ h6 {
   --spacing-900: 4.5rem;
   --spacing-800: 4rem;
   --spacing-700: 3.5rem;
+  --spacing-600: 3rem;
   --spacing-500: 2.5rem;
   --spacing-400: 2rem;
   --spacing-300: 1.5rem;
@@ -107,4 +108,14 @@ body {
 
 main {
   flex-grow: 1;
+}
+
+/* COMPONENTS */
+.logo {
+  height: 1.75rem;
+}
+
+/* HEADER */
+.header__logo {
+  margin: var(--spacing-600) auto 0;
 }
