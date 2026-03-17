@@ -56,8 +56,10 @@ h6 {
 /* COLORS, SPACING, TYPOGRAPHY*/
 :root {
   --cyan-600: #4d96a9;
+  --cyan-400: #71c0d4;
   --cyan-300: #8fe3f9;
   --purple-600: #855fb1;
+  --purple-400: #b18bdd;
   --purple-300: #d9b8ff;
   --slate-900: #28283d;
   --slate-600: #87879d;
@@ -113,6 +115,44 @@ main {
 /* COMPONENTS */
 .logo {
   height: 1.75rem;
+}
+
+.btn {
+  --btn-background: var(--slate-900); /* fallback for background color */
+  --btn-hover: var(
+    --slate-600
+  ); /* fallback for background color in hover state */
+  --btn-version: var(--slate-300); /* fallback for color of version number*/
+  font-weight: 900;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-decoration: none;
+  color: var(--white);
+  background: var(--btn-background);
+  padding: var(--spacing-200) var(--spacing-500);
+  border: solid 1px var(--btn-background);
+  border-radius: var(--spacing-400);
+}
+
+.btn:hover {
+  background-color: var(--btn-hover);
+  border-color: var(--btn-hover);
+}
+
+.btn__version {
+  color: var(--btn-version);
+}
+
+.btn--blue {
+  --btn-background: var(--cyan-600);
+  --btn-hover: var(--cyan-400);
+  --btn-version: var(--cyan-300);
+}
+
+.btn--purple {
+  --btn-background: var(--purple-600);
+  --btn-hover: var(--purple-400);
+  --btn-version: var(--purple-300);
 }
 
 /* HEADER */
