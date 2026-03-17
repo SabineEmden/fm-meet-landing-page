@@ -21,7 +21,19 @@
     </header>
     <main>
       <section class="hero">
-        <div class="hero__image hero__image--before"></div>
+        <div class="hero__container--before">
+          <picture>
+            <source
+              srcset="./assets/desktop/image-hero-left.png"
+              media="(min-width: 90rem)"
+            />
+            <img
+              src="./assets/tablet/image-hero.png"
+              alt="gallery of profile pictures"
+              class="hero__image"
+            />
+          </picture>
+        </div>
         <div class="hero__content">
           <h1 class="hero__heading">Group Chat for Everyone</h1>
           <p class="hero__text">
@@ -35,7 +47,13 @@
             <a href="#" class="btn btn--purple">What is it?</a>
           </div>
         </div>
-        <div class="hero__image hero__image--after"></div>
+        <div class="hero__container--after">
+          <img
+            src="./assets/desktop/image-hero-right.png"
+            alt=""
+            class="hero__image"
+          />
+        </div>
       </section>
       <section class="section one">
         <p class="section__number">01</p>
