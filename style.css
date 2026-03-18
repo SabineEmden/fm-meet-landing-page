@@ -98,10 +98,9 @@ h6 {
 body {
   display: flex;
   flex-direction: column;
-  align-items: center;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 500;
-  font-size: 1rem; /* changes to 18px for desktop */
+  font-size: 1rem; /* TODO: changes to 18px for desktop */
   line-height: 1.1;
   text-align: center;
   -webkit-font-smoothing: antialiased; /* from CSS Reset, here to consolidate duplicate selectors */
@@ -111,7 +110,7 @@ body {
 }
 
 main {
-  flex-grow: 1;
+  /* flex-grow: 1; */
 }
 
 /* COMPONENTS */
@@ -133,7 +132,7 @@ main {
   background: var(--btn-background);
   padding: var(--spacing-200) var(--spacing-500);
   border: solid 1px var(--btn-background);
-  border-radius: var(--spacing-400);
+  border-radius: 2rem;
 }
 
 .btn:hover {
@@ -159,7 +158,7 @@ main {
 
 /* HEADER */
 .header__logo {
-  margin-top: var(--spacing-600);
+  margin: var(--spacing-600) auto 0;
 }
 
 /* HERO SECTION */
@@ -172,7 +171,7 @@ main {
 }
 
 .hero__container-before {
-  height: 40vw;
+  height: min(40vw, 19rem);
   margin: 0 -32px;
 }
 
