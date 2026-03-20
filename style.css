@@ -205,3 +205,15 @@ body {
 .hero__container-after {
   display: none;
 }
+
+/* Media Queries */
+
+@media (min-width: 28rem) {
+  .hero {
+    padding-bottom: var(--spacing-800);
+  }
+
+  .hero__buttons {
+    flex-direction: row;
+  }
+}
