@@ -66,7 +66,7 @@ Building layouts that are flexible and work well across all screen sizes is a fu
 
 ### Useful resources
 
-_Resources coming soon_
+- [Fluid Typography Tool](https://fluidtypography.com/) - I used this tool to generate the `clamp()` functions for fluid typography.
 
 ## Author
 
