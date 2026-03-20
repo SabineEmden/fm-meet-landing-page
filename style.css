@@ -206,14 +206,34 @@ body {
   display: none;
 }
 
-/* Media Queries */
+/* MEDIA QUERIES */
 
-@media (min-width: 28rem) {
+/* tablet view */
+@media (min-width: 29rem) {
   .hero {
     padding-bottom: var(--spacing-800);
   }
 
   .hero__buttons {
     flex-direction: row;
+  }
+}
+
+/* desktop view */
+@media (min-width: 51rem) {
+  .hero {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .hero__container-before {
+    align-self: flex-start;
+  }
+
+  .hero__container-after {
+    display: block;
+    align-self: flex-end;
+    height: 19rem;
+    margin: 0 -32px;
   }
 }
