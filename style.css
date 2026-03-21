@@ -213,18 +213,13 @@ body {
   flex-direction: column;
   gap: var(--spacing-800);
   align-items: center;
-  padding: var(--spacing-400) var(--spacing-400) var(--spacing-600); /* TODO: Change top to 56px for tablet; bottom to 72 px, left/right to 80px for desktop*/
+  padding: var(--spacing-400) var(--spacing-400) var(--spacing-600);
 }
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(
-    2,
-    1fr
-  ); /* TODO: Change to 4 columns for tablet and desktop */
-  gap: var(
-    --spacing-200
-  ); /* TODO: Change to 24px for tablet, 32px for desktop */
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-200);
   max-width: 70rem;
 }
 
@@ -244,6 +239,15 @@ body {
   .hero__buttons {
     flex-direction: row;
   }
+
+  .one {
+    padding-top: var(--spacing-700);
+  }
+
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--spacing-300);
+  }
 }
 
 /* desktop view */
@@ -262,5 +266,13 @@ body {
     align-self: flex-end;
     height: 19rem;
     margin: 0 -32px;
+  }
+
+  .one {
+    padding: var(--spacing-700) var(--spacing-1000) var(--spacing-900);
+  }
+
+  .gallery {
+    gap: var(--spacing-400);
   }
 }
