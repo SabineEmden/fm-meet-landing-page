@@ -238,7 +238,7 @@ body {
 /* MEDIA QUERIES */
 
 /* tablet view */
-@media (min-width: 29rem) {
+@media (min-width: 32rem) {
   .hero {
     padding-bottom: var(--spacing-800);
   }
