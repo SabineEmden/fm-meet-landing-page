@@ -118,15 +118,20 @@ body {
   height: 1.75rem;
 }
 
+.btn,
+.number {
+  font-weight: 900;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
 .btn {
   --btn-background: var(--slate-900); /* fallback for background color */
   --btn-hover: var(
     --slate-600
   ); /* fallback for background color in hover state */
   --btn-version: var(--slate-300); /* fallback for color of version number*/
-  font-weight: 900;
-  font-size: 1rem;
-  line-height: 1.5;
+
   text-decoration: none;
   color: var(--white);
   background: var(--btn-background);
@@ -154,6 +159,28 @@ body {
   --btn-background: var(--purple-600);
   --btn-hover: var(--purple-400);
   --btn-version: var(--purple-300);
+}
+
+.number {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.number__line {
+  height: var(--spacing-1000);
+  width: 1px;
+  background-color: var(--slate-300);
+}
+
+.number__circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--spacing-700);
+  aspect-ratio: 1;
+  border: 1px solid var(--slate-300);
+  border-radius: 50%;
 }
 
 /* HEADER */
