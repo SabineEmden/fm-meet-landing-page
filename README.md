@@ -58,7 +58,34 @@ I'm completing this challenge as part of the Frontend Mentor learning path [Buil
 
 ### What I learned
 
-_Major learnings coming soon_
+For the image grid in section one of the landing page, I needed a flexible grid with square cells. The original size of all four images is 510 x 484. I solved this issue by using `aspect-ration: 1` on the grid items.
+
+```html
+<div class="gallery">
+  <div class="gallery__item">
+    <img
+      src="./assets/desktop/image-woman-in-videocall.jpg"
+      alt="woman in video call on a laptop"
+      class="gallery__img"
+    />
+  </div>
+  <!-- four more div.gallery__item -->
+</div>
+```
+
+```css
+.gallery__item {
+  aspect-ratio: 1;
+  border-radius: var(--spacing-50);
+  overflow: hidden;
+}
+
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+```
 
 ### Continued development
 
