@@ -46,7 +46,7 @@ _Screenshot coming soon_
 
 ## My process
 
-I'm completing this challenge as part of the Frontend Mentor learning path [Building responsive layouts](https://www.frontendmentor.io/learning-paths/building-responsive-layouts--z1qCXVqkD). It is the final of four challenges on this learning path.
+I'm completing this challenge as part of the Frontend Mentor learning path [Building responsive layouts](https://www.frontendmentor.io/learning-paths/building-responsive-layouts--z1qCXVqkD). It is the final of four challenges on this learning path and brings together responsive images, fluid typography, and flexible layouts.
 
 ### Built with
 
@@ -77,5 +77,7 @@ I'm an aspiring web developer and a former chemist. What I bring from chemistry 
 - Mastodon - [@sabineemden](https://social.tchncs.de/@sabineemden)
 
 ## Acknowledgments
+
+This solution uses a CSS reset based on [A Modern CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/) by Josh Comeau.
 
 The font family in this project is [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display). The fonts are licensed under the [Open Font License](https://openfontlicense.org/open-font-license-official-text/).
