@@ -136,10 +136,10 @@ body {
     --slate-600
   ); /* fallback for background color in hover state */
   --btn-version: var(--slate-300); /* fallback for color of version number*/
-
   text-decoration: none;
   color: var(--white);
   background: var(--btn-background);
+  width: max-content;
   padding: var(--spacing-200) var(--spacing-500);
   border: solid 1px var(--btn-background);
   border-radius: 2rem;
@@ -182,6 +182,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--white);
   width: var(--spacing-700);
   aspect-ratio: 1;
   border: 1px solid var(--slate-300);
@@ -292,6 +293,35 @@ body {
   margin-bottom: var(--spacing-400);
 }
 
+/* SECTION TWO */
+.number--two {
+  position: relative;
+  top: calc(var(--spacing-700) / 2);
+}
+
+.section-two__container {
+  color: var(--white);
+  background-color: var(--cyan-600);
+  padding: var(--spacing-800) var(--spacing-400);
+}
+
+.section-two__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-300);
+  align-items: center;
+  max-width: 48ch;
+  margin: 0 auto;
+}
+
+.section-two__heading {
+  font-size: clamp(
+    2rem,
+    0.751vw + 1.824rem,
+    2.5rem
+  ); /* font size 32px @ 375px screen width -> 40px @ 1440px */
+}
+
 /* MEDIA QUERIES */
 
 /* Tablet view */
@@ -343,4 +373,29 @@ body {
   .gallery {
     gap: var(--spacing-400);
   }
+
+  .section-two__container {
+    padding: var(--spacing-1400) var(--spacing-1000);
+  }
+
+  .section-two__content {
+    flex-direction: row;
+    gap: var(--spacing-400);
+    align-items: start;
+    justify-content: space-between;
+    text-align: start;
+    max-width: 70rem;
+  }
+
+  .section-two__heading {
+    flex: 4;
+  }
+
+  .section-two__text {
+    flex: 3;
+  }
+
+  /* .section-two__button {
+    flex: 2;
+  } */
 }
