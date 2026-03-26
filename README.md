@@ -94,6 +94,7 @@ Building layouts that are flexible and work well across all screen sizes is a fu
 ### Useful resources
 
 - [Fluid Typography Tool](https://fluidtypography.com/) - I used this tool to generate the `clamp()` functions for fluid typography.
+- [Lower the opacity of a background-image with CSS](https://www.youtube.com/watch?v=lRPguPbovro) by Kevin Powell on YouTube - This video helped me figure out how to do the color overlay over the background image.
 
 ## Author
 
