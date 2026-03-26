@@ -337,6 +337,19 @@ body {
   ); /* font size 32px @ 375px screen width -> 40px @ 1440px */
 }
 
+/* ATTRIBUTION */
+.attribution {
+  padding: var(--spacing-200) var(--spacing-400);
+}
+
+.attribution a {
+  color: var(--purple-600);
+}
+
+.attribution a:hover {
+  color: var(--purple-400);
+}
+
 /* MEDIA QUERIES */
 
 /* Tablet view */
@@ -414,8 +427,4 @@ body {
   .section-two__text {
     flex: 3;
   }
-
-  /* .section-two__button {
-    flex: 2;
-  } */
 }
