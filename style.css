@@ -297,12 +297,27 @@ body {
 .number--two {
   position: relative;
   top: calc(var(--spacing-700) / 2);
+  z-index: 1;
 }
 
 .section-two__container {
+  --bg-image: url("./assets/mobile/image-footer.jpg");
   color: var(--white);
-  background-color: var(--cyan-600);
+  background-image: var(--bg-image);
+  background-size: cover;
+  background-position: top;
   padding: var(--spacing-800) var(--spacing-400);
+  position: relative;
+  isolation: isolate;
+}
+
+.section-two__container::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background-color: var(--cyan-600);
+  opacity: 0.9;
+  inset: 0;
 }
 
 .section-two__content {
