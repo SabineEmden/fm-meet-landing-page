@@ -357,6 +357,10 @@ body {
     grid-template-columns: repeat(4, 1fr);
     gap: var(--spacing-300);
   }
+
+  .section-two__container {
+    --bg-image: url("./assets/tablet/image-footer.jpg");
+  }
 }
 
 /* Desktop view */
@@ -390,6 +394,7 @@ body {
   }
 
   .section-two__container {
+    --bg-image: url("./assets/desktop/image-footer.jpg");
     padding: var(--spacing-1400) var(--spacing-1000);
   }
 
