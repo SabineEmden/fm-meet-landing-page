@@ -144,6 +144,11 @@ body {
   border-color: var(--btn-hover);
 }
 
+.btn:focus-visible {
+  outline: 3px solid var(--purple-400);
+  outline-offset: 3px;
+}
+
 .btn__version {
   color: var(--btn-version);
 }
@@ -360,6 +365,11 @@ body {
 
 .attribution a:hover {
   color: var(--purple-400);
+}
+
+.attribution a:focus-visible {
+  outline: 2px solid var(--cyan-400);
+  outline-offset: 2px;
 }
 
 /* MEDIA QUERIES */
