@@ -96,11 +96,9 @@ h6 {
 
 /* GENERAl STYLES AND LAYOUT */
 body {
-  display: flex;
-  flex-direction: column;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 500;
-  font-size: 1rem; /* TODO: changes to 18px for desktop */
+  font-size: 1rem;
   line-height: 1.5;
   text-align: center;
   -webkit-font-smoothing: antialiased; /* from CSS Reset, here to consolidate duplicate selectors */
@@ -108,10 +106,6 @@ body {
   background-color: var(--white);
   min-height: 100dvh;
 }
-
-/* main {
-  flex-grow: 1;
-} */
 
 .heading {
   font-weight: 900;
@@ -217,13 +211,6 @@ body {
   padding: 0 var(--spacing-400);
 }
 
-.hero__buttons {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: var(--spacing-200);
-}
-
 .hero__heading {
   color: var(--slate-900);
   font-size: clamp(
@@ -231,6 +218,13 @@ body {
     2.254vw + 1.972rem,
     4rem
   ); /* font size 40px @ 375px screen width -> 64px @ 1440px */
+}
+
+.hero__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-200);
 }
 
 .hero__container-after {
@@ -276,8 +270,6 @@ body {
     0.376vw + 0.662rem,
     1rem
   ); /* font size 12px @ 375px screen width -> 16px @ 1440px */
-  font-weight: 900;
-  line-height: 1.1;
   letter-spacing: 4px;
   text-transform: uppercase;
   margin-bottom: var(--spacing-200);
@@ -339,7 +331,11 @@ body {
 
 /* ATTRIBUTION */
 .attribution {
-  font-size: 0.75rem;
+  font-size: clamp(
+    0.75rem,
+    0.376vw + 0.662rem,
+    1rem
+  ); /* font size 12px @ 375px screen width -> 16px @ 1440px */
   padding: var(--spacing-200) var(--spacing-400);
 }
 
