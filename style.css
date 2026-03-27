@@ -251,20 +251,20 @@ body {
   padding: var(--spacing-400) var(--spacing-400) var(--spacing-600);
 }
 
-.gallery {
+.image-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: var(--spacing-200);
   max-width: 70rem;
 }
 
-.gallery__item {
+.image-grid__item {
   aspect-ratio: 1;
   border-radius: var(--spacing-50);
   overflow: hidden;
 }
 
-.gallery__img {
+.image-grid__img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -374,7 +374,7 @@ body {
     padding-top: var(--spacing-700);
   }
 
-  .gallery {
+  .image-grid {
     grid-template-columns: repeat(4, 1fr);
     gap: var(--spacing-300);
   }
@@ -410,7 +410,7 @@ body {
     padding: var(--spacing-700) var(--spacing-1000) var(--spacing-900);
   }
 
-  .gallery {
+  .image-grid {
     gap: var(--spacing-400);
   }
 
