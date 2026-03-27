@@ -20,7 +20,7 @@ This is a solution to the [Meet landing page challenge on Frontend Mentor](https
 
 ### The challenge
 
-The brief for this challenge is to build out this landing page and get it looking as close to the design as possible, starting with the following assets:
+The brief for this challenge was to build out this landing page and get it looking as close to the design as possible, starting with the following assets:
 
 - Figma design file access
 - Mobile, tablet & desktop layouts
@@ -46,7 +46,7 @@ _Screenshot coming soon_
 
 ## My process
 
-I'm completing this challenge as part of the Frontend Mentor learning path [Building responsive layouts](https://www.frontendmentor.io/learning-paths/building-responsive-layouts--z1qCXVqkD). It is the final of four challenges on this learning path and brings together responsive images, fluid typography, and flexible layouts.
+I completed this challenge as part of the Frontend Mentor learning path [Building responsive layouts](https://www.frontendmentor.io/learning-paths/building-responsive-layouts--z1qCXVqkD). It is the final of four challenges on this learning path and brings together responsive images, fluid typography, and flexible layouts.
 
 ### Built with
 
@@ -57,6 +57,10 @@ I'm completing this challenge as part of the Frontend Mentor learning path [Buil
 - Mobile-first workflow
 
 ### What I learned
+
+This was the most demanding Frontend Mentor challenge I have worked on so far, not because it had the most challenging issues, but because it had a number of small to mid-sized issues I had to solve:
+
+It also was the biggest project so far. All others were only components.
 
 For the image grid in section one of the landing page, I needed a flexible grid with square cells. The original size of all four images is 510 x 484. I solved this issue by using `aspect-ration: 1` on the grid items.
 
@@ -89,12 +93,16 @@ For the image grid in section one of the landing page, I needed a flexible grid 
 
 ### Continued development
 
-Building layouts that are flexible and work well across all screen sizes is a fundamental skill in front-end development. I will be able to us and refine it in future web development projects.
+I used a mobile-first workflow for this challenge. However, I didn't build the whole mobile view before I adapted it for the tablet and desktop views. I went section by section. For each section, I built out the mobile view first, then added the tablet and desktop view.
+
+This worked well because to plan my approach for each section, I had to figure out how the design changed from mobile to tablet to desktop. By adding these changes immediately after I finished the mobile design for each section, I still had them fresh on my mind.
+
+I might keep this approach for future projects, or I could experiment with finishing the whole mobile design first while adding comments to the CSS style sheet to keep track of what needs to be changed later for the tablet and desktop views.
 
 ### Useful resources
 
 - [Fluid Typography Tool](https://fluidtypography.com/) - I used this tool to generate the `clamp()` functions for fluid typography.
-- [Lower the opacity of a background-image with CSS](https://www.youtube.com/watch?v=lRPguPbovro) by Kevin Powell on YouTube - This video helped me figure out how to do the color overlay over the background image.
+- [Lower the opacity of a background-image with CSS](https://www.youtube.com/watch?v=lRPguPbovro) by Kevin Powell on YouTube - This video helped me figure out how to do the color overlay on the background image.
 
 ## Author
 

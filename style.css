@@ -339,6 +339,7 @@ body {
 
 /* ATTRIBUTION */
 .attribution {
+  font-size: 0.75rem;
   padding: var(--spacing-200) var(--spacing-400);
 }
 
