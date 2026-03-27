@@ -311,16 +311,16 @@ body {
   background-position: top;
   padding: var(--spacing-800) var(--spacing-400);
   position: relative;
-  isolation: isolate;
+  /* isolation: isolate; */
 }
 
 .section-two__container::after {
   content: "";
   position: absolute;
-  z-index: -1;
+  inset: 0;
   background-color: var(--cyan-600);
   opacity: 0.9;
-  inset: 0;
+  z-index: 0;
 }
 
 .section-two__content {
@@ -330,6 +330,10 @@ body {
   align-items: center;
   max-width: 48ch;
   margin: 0 auto;
+
+  /* ensure content sits above the overlay */
+  position: relative; /* needed so z-index applies */
+  z-index: 1; /* content appears above the overlay */
 }
 
 .section-two__heading {
