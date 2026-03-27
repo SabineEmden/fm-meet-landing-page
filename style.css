@@ -112,7 +112,7 @@ body {
   line-height: 1.1;
 }
 
-/* COMPONENTS */
+/* COMPONENTS AND UTILITIES*/
 .logo {
   height: 1.75rem;
 }
@@ -181,6 +181,17 @@ body {
   aspect-ratio: 1;
   border: 1px solid var(--slate-300);
   border-radius: 50%;
+}
+
+.sr-only {
+  border: 0;
+  clip-path: inset(50%);
+  height: 1px;
+  margin: 0;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 
 /* HEADER */
