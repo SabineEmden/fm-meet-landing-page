@@ -26,6 +26,7 @@ The brief for this challenge was to build out the landing page and get it lookin
 - Mobile, tablet & desktop layouts
 - Professional design system for colors, fonts, etc.
 - Optimized image assets
+- README file to get started
 - HTML file with pre-written content
 
 Users should be able to:
@@ -39,7 +40,7 @@ Users should be able to:
 
 ### Links
 
-- _Link to Frontend Mentor solution comming soon_
+- [Frontend Mentor solution](https://www.frontendmentor.io/solutions/meet-landing-page-4PHSIlzDTD)
 - [Live site](https://sabineemden.github.io/fm-meet-landing-page/)
 
 ## My process
@@ -56,14 +57,14 @@ I completed this challenge as part of the Frontend Mentor learning path [Buildin
 
 ### What I learned
 
-This project was bigger than most other challenges I have completed for Frontend Mentor so far. It was more demanding because it combined a couple of small to mid-sized issues on one page:
+This project was bigger than most other Frontend Mentor challenges I have completed so far. It was more demanding because it combined a couple of small to mid-sized issues on one page:
 
-- Layout shifts between mobile, tablet, and desktop designs,
-- A hero image that splits into two for the desktop design,
-- Headings with fluid typography,
-- Button and number components,
-- An image gallery with square grid items,
-- A background image with a color overlay.
+- Layout shifts between mobile, tablet, and desktop designs
+- A hero image that splits into two for the desktop design
+- Headings with fluid typography
+- Button and number components
+- An image gallery with square grid items
+- A background image with a color overlay
 
 ### Continued development
 
