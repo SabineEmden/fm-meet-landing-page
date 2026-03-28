@@ -53,11 +53,6 @@ h6 {
   text-wrap: balance;
 }
 
-ul[role="list"],
-ol[role="list"] {
-  list-style: none;
-}
-
 /* COLORS, SPACING, TYPOGRAPHY*/
 :root {
   --cyan-600: #4d96a9;
@@ -265,6 +260,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: var(--spacing-200);
+  list-style: none;
   max-width: 70rem;
   padding: 0;
 }
