@@ -318,16 +318,16 @@ body {
   background-position: top;
   padding: var(--spacing-800) var(--spacing-400);
   position: relative;
-  /* isolation: isolate; */
 }
 
-.section-two__container::after {
+.section-two__container::before {
   content: "";
   position: absolute;
   inset: 0;
+  width: 100%;
+  height: 100%;
   background-color: var(--cyan-600);
   opacity: 0.9;
-  z-index: 0;
 }
 
 .section-two__content {

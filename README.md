@@ -77,7 +77,8 @@ I might keep this approach for future projects or experiment with finishing the 
 ### Useful resources
 
 - [Fluid Typography Tool](https://fluidtypography.com/) - I used this tool to generate the `clamp()` functions for fluid typography.
-- [Lower the opacity of a background-image with CSS](https://www.youtube.com/watch?v=lRPguPbovro) by Kevin Powell on YouTube - This video helped me figure out how ad the the color overlay to the background image.
+- [Lower the opacity of a background-image with CSS](https://www.youtube.com/watch?v=lRPguPbovro) by Kevin Powell on YouTube - This video helped me figure out how ad the the color overlay to the background image. However, my initial solution got flagged in the CSS report.
+- [Image Overlay with CSS & the ::before Pseudo Selector](https://www.traversymedia.com/blog/css-image-overlay) by Traversy Media - I changed the image overlay to the example in this article.
 
 ## Author
 
